@@ -18,6 +18,14 @@ class Employee {
     private calculateBonus(){
         return this.salary * 0.1;
     }
+
+    private increaseSalary(percent: number): void{
+        this.salary += percent/100;
+    }
+
+    public giveRaise(percent: number): void{
+        this.increaseSalary(percent);
+    }
 }
 
 class Manager extends Employee {
