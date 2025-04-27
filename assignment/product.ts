@@ -11,7 +11,7 @@ class Product {
         this.quantity = quantity;
     }
 
-    printDetails() {
+    printDetails(): void {
         console.log(`Info of ${this.title}`);
         console.log(`Title => ${this.title}`);
         console.log(`Description => ${this.description}`);
