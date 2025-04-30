@@ -10,8 +10,9 @@ let product2 = {id: 102, name: "IQOO Z9X", price: 13500};
 printProductDetails(product1);
 printProductDetails(product2);
 
-function printProductDetails(product: Product){
+function printProductDetails(product: Product): void{
     console.log(`Details of ${product.name}`);
+
     console.log(`id => ${product.id}`);
     console.log(`name => ${product.name}`);
     console.log(`price => ${product.price}`);
