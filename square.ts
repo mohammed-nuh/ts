@@ -1,7 +1,4 @@
-function square(n: number): number{
-    let sq: number = n * n;
-    return sq;
-}
+let square = n => n * n;
 
 let n: number = 5;
 let sq_n = square(n);
